@@ -1,0 +1,48 @@
+.menutree {
+    position:sticky;
+    top:60px;
+    width:15%;
+    margin:15px 15px 15px 0px;
+    overflow-y:auto;
+    overflow-x:auto;
+    background: var(--background);
+}
+
+.index-menu-item {
+    margin: 10px 0px;
+}
+
+.index-menu-list {
+    margin: 5px 0px 5px 10px;
+}
+
+.index-menu-link{
+    color: var(--main);
+    transition:all 0.2s ease-in-out 0s;
+    padding:5px 0px;
+}
+
+.index-menu-link:hover {
+    color: var(--theme);
+    text-shadow: var(--text-shadow);
+    font-weight:500;
+    background-color:#efefef;
+}
+
+.menu-target-fix {
+    display: block;
+    position: relative;
+    top:-100px;
+}
+
+@media screen and (max-width:1000px) {
+    .joe_aside__item-title > .line {
+        display:none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .menutree{
+        display:none;
+    }
+}
